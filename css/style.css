@@ -1,0 +1,319 @@
+body{
+    background-color: #EBEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    width: 100%;    
+    min-width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    margin:0 10%;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 5px 1px black;
+    margin:20px 20px 20px;
+    padding:0 20px;
+
+}
+
+main section:nth-child(odd){
+    margin-left: 5px;
+
+}
+
+main section:nth-child(even){
+    margin-left: 250px;
+
+}
+
+section{
+    margin-bottom:200px;
+}
+
+.sauvetage{
+    float:left;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+.pdg{
+    float:right;
+    height: 200px;
+    width:300px;
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+.b1{
+    margin-left:300px;
+    margin-top: 5%;
+    padding-right: 50%;
+    display:flex;
+    
+}
+
+.b2{
+    margin-left:50px;
+    padding-right: 50%;
+}
+
+
+header{
+    background-image: url(../images/fond.jpg);
+    background-size: 100%;
+    padding:20px 0 20px 0;
+
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.btn{
+    margin: 20px 10px 0 10px;
+    float:right;
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+nav{
+    opacity: 1;
+    display:flex;
+    padding:20px 0px;
+    position: sticky;
+    width:100%;
+    top:0;
+    align-items: center;
+    background-color: #1f1f1f;
+    justify-content: flex-end;
+
+}
+
+nav > h1{
+    color:white;
+    display: flex;
+    margin-right: 40%;
+    justify-content: flex-start;
+}
+
+
+p{
+    text-align:justify;
+    text-indent: 20px;
+    margin: 30px;
+}
+
+body nav > div:hover #searchbox{
+    display: flex;
+    top:55px;
+    position: fixed;
+}
+
+#searchbox {
+    padding: 20px 10px;
+    width: 250px;
+    clear:left;
+    flex-direction: column;
+    display:none;
+    float:left;
+}
+    
+    input:focus::-webkit-input-placeholder {
+    color: transparent;
+    }
+    
+    input:focus:-moz-placeholder {
+    color: transparent;
+    }
+    
+    input:focus::-moz-placeholder {
+    color: transparent;
+    }
+    
+    #searchbox input {
+    outline: none;
+    }
+    
+    #searchbox input[type= "text"] {
+    background: url(http://2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 10px 6px #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #303030;
+    width: 55%;
+    padding: 8px 15px 8px 30px;
+    }   
+    
+    #button-submit {
+    background: #6A6F75;    
+    border-width: 0px;
+    padding: 9px 0px;
+    width: 23%;
+    cursor: pointer;
+    font: bold 12px Arial, Helvetica;
+    color: #fff;
+    text-shadow: 0 1px 0 #555;
+    }
+    
+    #button-submit:hover {
+    background: #4f5356;
+    }
+    
+    #button-submit:active {
+    background: #5b5d60;
+    outline: none;
+    }
+    
+    #button-submit::-moz-focus-inner {
+    border: 0;
+    }
+
+button{
+        padding:10px 10px;
+        border:none;
+        background-color: #1f30c5;
+        cursor:pointer;
+        font-size:15px;
+        color:white;
+        outline:0;
+        float:right;
+        position: absolute;
+    }
+
+/*Footer*/
+
+footer{
+    margin-top: 50px;
+    background-size: 100%; 
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    background-color: #1f1f1f;
+    color: white
+}
+
+
+
+footer div {
+    display:flex;
+    padding:20px 20px;
+    position: sticky;  
+    flex-direction: row;  
+    align-items: center;
+    align-items: baseline;
+}
+
+
+
+footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+  
+footer ul {
+    padding:0;
+    list-style: none;
+    line-height:1.6;
+    font-size:16px;
+    margin-bottom:0;
+    align-self: center;
+}
+  
+footer ul a {
+    color:inherit;
+    text-decoration:none;
+}
+
+footer h3 a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li h4 a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.colonne{
+    columns: 5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+}
+
+h3{
+    margin: 50px 0px 20px;
+    font-size: 25px;
+}
+
+ul{
+    margin: 0px 30px 20px;
+}
+
+.titre{
+    font-size: 30px;
+    border: solid white;
+    display:inline;
+
+}
+
+.logo{
+    width: 45%;
+    height: 45%; 
+}
+
+.decalage{
+    margin-left: 50px;
+}
+
+
+/* LIST SAUVETEURS */
+section.list > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+section > form{
+    align-items: center;
+}
+
+.text_gras {
+    font-weight: bold;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+#themesombre {
+    left: 0px;
+}
+
+.dark {
+    background-color: black;
+    color:white;
+}
+
+.dark > nav {
+    background-color: #1f1f1f;
+}
+.dark .btn {
+    color: white;
+}
